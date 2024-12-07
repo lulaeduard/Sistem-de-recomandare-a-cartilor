@@ -1,0 +1,47 @@
+IntroducereProgramare JohnDoe Informatica 1
+AlgoritmiAvansati JaneSmith Informatica 3
+StructuriDate AliceJohnson Informatica 2
+ProgramareWeb RobertBrown Informatica 1
+InteligentaArtificiala AlanTuring Informatica 3
+
+BazeleMatematicii AlanTuring Matematica 1
+CalculNumeric MariaCurie Matematica 2
+TeoriaNumerelor SophieGermain Matematica 3
+GeometrieEuclidiana Euclid Matematica 1
+AnalizaMatematica IsaacNewton Matematica 3
+
+FizicaGenerala RichardFeynman Fizica 1
+MecanicaClasica IsaacNewton Fizica 2
+FizicaTeoretica AlbertEinstein Fizica 3
+Optica JamesMaxwell Fizica 2
+Astrofizica StephenHawking Fizica 3
+
+ChimieGenerala MarieCurie Chimie 1
+ChimieOrganica RosalindFranklin Chimie 2
+ChimieFizica LinusPauling Chimie 3
+AnalizaChimica AntoineLavoisier Chimie 2
+Biochimie EmilFischer Chimie 3
+
+BazeleBiologiei CharlesDarwin Biologie 1
+BiologieMoleculara JamesWatson Biologie 3
+GeneticaModerna GregorMendel Biologie 2
+EvolutieSiSpecii AlfredWallace Biologie 3
+EcologieSiMediu RachelCarson Biologie 2
+
+IstorieAntica Herodot Istorie 1
+IstorieModerna WillDurant Istorie 2
+RazboaieModerne WinstonChurchill Istorie 3
+RevolutiiEuropei KarlMarx Istorie 2
+CulturaRenasterii JacobBurckhardt Istorie 3
+
+IntroducerePsihologie CarlJung Psihologie 1
+PsihologieGenerala SigmundFreud Psihologie 2
+TeoriiPersonalitate AlfredAdler Psihologie 3
+PsihologiaEducatiei JohnDewey Psihologie 2
+PsihologiaDezvoltarii ErikErikson Psihologie 3
+
+BazeleEconomie AdamSmith Economie 1
+TeoriaJocurilor JohnNash Economie 2
+EconomieGlobala PaulKrugman Economie 3
+ManagementProiecte PeterDrucker Economie 2
+FinanteAvansate MiltonFriedman Economie 3
