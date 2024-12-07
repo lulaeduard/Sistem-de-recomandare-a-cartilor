@@ -1,0 +1,10 @@
+admin admin123
+user1 parola1
+user2 parola2
+student2024 studentpass
+researcher2024 researchpass
+testuser test123
+john_doe 1234abcd
+jane_smith qwerty123
+developer devpass
+guest guest123
