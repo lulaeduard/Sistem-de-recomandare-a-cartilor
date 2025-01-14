@@ -8,3 +8,7 @@ john_doe 1234abcd
 jane_smith qwerty123
 developer devpass
 guest guest123
+ana bau
+eugen 123
+edi 234
+qwe edi
