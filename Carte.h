@@ -1,4 +1,5 @@
 #ifndef CARTE_H
+#ifndef CARTE_H
 #define CARTE_H
 
 #include <string>
