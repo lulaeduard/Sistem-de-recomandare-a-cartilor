@@ -1,20 +1,28 @@
-#ifndef RECOMANDARE_H
-#define RECOMANDARE_H
+#ifndef SISTEMDERECOMANDARE_H
+#define SISTEMDERECOMANDARE_H
 
+#include <vector>
 #include <string>
-#include "BazaDeDate.h"
+#include "Carte.h"
+#include "Utilizator.h"
+#include "Student.h"
+#include "Cercetator.h"
+#include "Admin.h"
 
-class Recomandare {
+class SistemDeRecomandare {
 private:
-    BazaDeDate bazaDeDate;
+    std::vector<Carte> carti;
+    std::vector<std::pair<std::string, std::vector<std::string>>> istoric;
 
 public:
-    Recomandare();
+    SistemDeRecomandare();
+    void incarcaDate();
+    void salveazaDate() const;
+    bool autentificaUtilizator(const std::string& username, const std::string& parola);
+    bool inregistreazaUtilizator(const std::string& username, const std::string& parola);
     void init();
-    void meniuPrincipal();
-    void login();
-    void inregistrare();
-    void intreabaUtilizator();
+    void intreabaUtilizator(const std::string& username);
+    std::vector<Carte> recomandaCarti(const std::string& domeniu, int nivel);
 };
 
 #endif
