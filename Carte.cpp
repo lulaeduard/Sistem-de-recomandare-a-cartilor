@@ -1,22 +1,21 @@
-#ifndef CARTE_H
-#define CARTE_H
+#include "Carte.h"
 
-#include <string>
+Carte::Carte(const std::string& titlu, const std::string& autor, const std::string& domeniu, int nivel)
+    : titlu(titlu), autor(autor), domeniu(domeniu), nivelDificultate(nivel) {
+}
 
-class Carte {
-private:
-    std::string titlu;
-    std::string autor;
-    std::string domeniu;
-    int nivelDificultate;
+std::string Carte::getTitlu() const {
+    return titlu;
+}
 
-public:
-    Carte(const std::string& titlu, const std::string& autor, const std::string& domeniu, int nivel);
+std::string Carte::getDomeniu() const {
+    return domeniu;
+}
 
-    std::string getTitlu() const;
-    std::string getDomeniu() const;
-    int getNivelDificultate() const;
-    std::string afisare() const;
-};
+int Carte::getNivelDificultate() const {
+    return nivelDificultate;
+}
 
-#endif
+std::string Carte::afisare() const {
+    return "Titlu: " + titlu + ", Autor: " + autor + ", Domeniu: " + domeniu + ", Nivel: " + std::to_string(nivelDificultate);
+}
